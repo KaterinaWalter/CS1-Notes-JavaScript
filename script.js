@@ -15,45 +15,24 @@ let pokemon;
 
 // ASSIGN a VALUE to that variable 
 // like putting an item in a box 
-pokemon = "pikachu" ; 
+pokemon = "pikachu"; 
 
-// DECLARE + ASSIGN in one statement 
-let name = "Katerina"; 
+// DECLARE + ASSIGN in one statement
+let luckyNumber = 13;
 
-// DECLARE a new variable (buying a box) 
-let luckyNumber; 
-
-// ASSIGN a value to that variable (putting an item in a box) 
-luckyNumber = 13;
-
-// DECLARE + ASSIGN in one statement 
-let worstNumber = 6; 
-
-// You can "PASS IN" a VARIABLE into a FUNCTION 
+// "PASS IN" a variable to a FUNCTION
 console.log(luckyNumber);
-console.log(worstNumber); 
 
-// Can CHANGE the value stored in a variable
-let mood = "Happy";
-console.log(mood);
-mood = "Sad";
-console.log(mood);
+// CHANGE the value of an existing variable
+let raining = false;
+console.log(raining);
+raining = true; 
+console.log(raining);
 
-// Can COPY the value from one variable into another
-let isHappy = true;
-let isThrilled;
-isThrilled = isHappy;
-console.log(isThrilled);
-
-// MATH OPERATIONS
-let score = 0;
-score = score + 5;
-console.log(score); 
-score = score - 10;
-console.log(score); 
-score = score * (-3);
-console.log(score);
-score = score / 5;
-console.log(score);
-
-
+// COPY data from one variable into another
+let breakfast = "Oatmeal";
+let lunch; 
+lunch = breakfast; 
+// Both variables hold the same value
+console.log(breakfast);
+console.log(lunch);
