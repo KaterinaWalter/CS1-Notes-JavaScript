@@ -36,8 +36,8 @@ lunch = breakfast;
 // Both variables hold the same value
 console.log(breakfast);
 console.log(lunch);
-// Above statements log the VALUES stored in variables
-// Below statement logs a literal String
+// Above statements log the VALUES stored in VARIABLES named breakfast and lunch
+// Below statement log the literal string "lunch"
 console.log("lunch");
 
 // MATH OPERATORS
