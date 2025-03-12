@@ -75,6 +75,14 @@ console.log( 4 + '5'); // 45 (same as above!)
 let counter = 0;  
 counter = counter + 1; // LONG WAY
 counter++; // SHORTCUT to increase by 1
-console.log(counter);
+console.log("Count is " + counter);
 counter--; // SHORTCUT to decrease by 1
-console.log(counter);
+console.log("Count is " + counter);
+
+/* FUNCTIONS:
+   Reusable sets of code statements
+   that perform a specific task or process
+*/ 
+
+
+
