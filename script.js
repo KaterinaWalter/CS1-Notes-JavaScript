@@ -107,7 +107,3 @@ function makeSandwich(filling, sauce, bread) {
 }
 let grilledCheese = makeSandwich("cheese", "butter", "toast");
 console.log(grilledCheese);
-let sohaila = makeSandwich("turkey", "ketchup", "pita");
-console.log(sohaila);
-let simeon = makeSandwich("jelly", "butter", "multigrain");
-console.log(simeon);
