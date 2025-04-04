@@ -132,24 +132,30 @@ console.log( myNickname == "Kat" );
 
 // Use CONDITIONS in IF STATEMENTS to make 
 // DECISIONS about which code to execute
-let age = 20;
-// "is the value of the age variable 16?"
+
+let age = 17; 
+// "is the VALUE of the age VARIABLE equal to 16?"
 if (age == 16) {
-   // statement below only runs if true
-   console.log("Happy sweet sixteen!");
+   // code below only runs if the condition above is TRUE
+   console.log("Happy Sweet Sixteen!");
 }
 else {
-   // runs only if the IF BLOCK above was false
-   console.log("You can't have a sweet sixteen party");
+   // code below runs when the IF block is FALSE
+   console.log("Happy birthday!");
 }
 
-// ELSE IF blocks allow us to test multiple options
+// Use ELSE IF blocks to test multiple options
+age = 15; // change value of age variable
 if (age == 18) {
-   console.log("Congrats on being an adult!");
+   console.log("Congrats on becoming an adult!");
 }
 else if (age > 18) {
    console.log("Go vote!!!");
 }
 else {
-   console.log("You can't vote yet!");
+   console.log("Too young to vote...");
 }
+
+
+
+
